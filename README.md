@@ -1,15 +1,15 @@
 # 本リポジトリについて
 ## 概要
-Omron NJ/NX/NY (SysmacStudio)で使用することができるClock FB（ファンクションブロック）です。  
-特定の文字列を置換することのできるFB。  
+Omron NJ/NX/NY (SysmacStudio)で使用することができるClock FUN（ファンクション）です。  
+特定の文字列を置換することのできます。  
 Pull request（改善したプログラムの公開）、Issue（質問、バグ報告）大歓迎です。
   
 ## ファイル  
-- ReplaceStrFB.csm2：プロジェクトファイル。ReplaceStrFBとReplaceStrFBの使用例が含まれています。
+- ReplaceStrFUN.csm2：プロジェクトファイル。ReplaceStrFUNとReplaceStrFUNの使用例が含まれています。
   
 ## 使用方法
-- ReplaceStrFB.csm2を使用する場合：  
-  SysmacStudioがインストールされたPCで、ダウンロードした「ReplaceStrFB.csm2」をダブルクリックすると、本プログラムが開きます。
+- ReplaceStrFUN.csm2を使用する場合：  
+  SysmacStudioがインストールされたPCで、ダウンロードした「ReplaceStrFUN.csm2」をダブルクリックすると、本プログラムが開きます。
   使用したいプロジェクトにファンクションブロックをコピーしてください。
 
 
@@ -46,7 +46,7 @@ Pull request（改善したプログラムの公開）、Issue（質問、バグ
   すべての文字列を置換したい場合は、Replaced(置換有無結果)がFALSEになるまで繰り返し本FUNを実行してください。
 - ユーザー定義FUNでは、文字列の長さを可変長にすることができません。
   そのため、本FUNでは、In、ReplaceStrは1986Byte、Old、Newは256Byteに固定しています。
-  Byteを変更したい場合は、使用者自身でFUNのデータ型を変更してください。
+  Byte数を変更したい場合は、使用者自身でFUNのデータ型を変更してください。
 
 
 # ライセンスについて
