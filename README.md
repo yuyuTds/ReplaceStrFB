@@ -33,13 +33,9 @@ Pull request（改善したプログラムの公開）、Issue（質問、バグ
 |戻り値|ReplaceStr|STRING[1986]|ー|ー|ー|ー|置換後の文字列|
 
 
-## タイミングチャート
-- 「[Sysmac Studio Version 1 オペレーションマニュアル (SBCA-470)](https://www.fa.omron.co.jp/products/family/3077/download/manual.html)」のFUNのタイミングチャートに従っています。
-- 「[Sysmac Studio Version 1 オペレーションマニュアル (SBCA-470)](https://www.fa.omron.co.jp/products/family/3077/download/manual.html)」を参照してください。
-
-
 ## 使用名前空間
 - yuyuTds
+
 
 ## 注意点
 - In(元の文字列)にOld(検索する文字列)が複数ある場合、初めの文字列のみ置換します。
