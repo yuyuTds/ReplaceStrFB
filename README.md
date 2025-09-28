@@ -29,8 +29,8 @@ Pull request（改善したプログラムの公開）、Issue（質問、バグ
 |入力|In|STRING[1986]|ー|ー|ー|ー|元の文字列|
 |入力|Old|STRING[256]|ー|ー|ー|ー|検索する文字列|
 |入力|New|STRING[256]|ー|ー|ー|ー|置き換える文字列|
-|入力|Replaced|BOOL|ー|ー|ー|ー|置換有無結果 (TRUE:置換有 FALSE:置換無)|
-|出力|ReplaceStr|STRING[1986]|ー|ー|ー|ー|置換後の文字列|
+|出力|Replaced|BOOL|ー|ー|ー|ー|置換有無結果 (TRUE:置換有 FALSE:置換無)|
+|戻り値|ReplaceStr|STRING[1986]|ー|ー|ー|ー|置換後の文字列|
 
 
 ## タイミングチャート
