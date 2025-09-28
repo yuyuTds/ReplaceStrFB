@@ -1,6 +1,6 @@
 # 本リポジトリについて
 ## 概要
-Omron NJ/NX/NY (SysmacStudio)で使用することができるClock FUN（ファンクション）です。  
+Omron NJ/NX/NY (SysmacStudio)で使用することができるReplaceStr FUN（ファンクション）です。  
 特定の文字列を置換することのできます。  
 Pull request（改善したプログラムの公開）、Issue（質問、バグ報告）大歓迎です。
   
